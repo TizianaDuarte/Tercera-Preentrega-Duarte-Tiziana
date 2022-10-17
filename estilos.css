@@ -1,0 +1,318 @@
+/* line 1, ../Tercera Preentrega Duarte Tiziana/css/scss/partials/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif; }
+  /* line 7, ../Tercera Preentrega Duarte Tiziana/css/scss/partials/_reset.scss */
+  *::selection {
+    background: #6b7ea9; }
+
+/*CABECERA LOGO Y FONDO*/
+/* line 7, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+section {
+  /*PRIMER ICON */
+  /*SEGUNDO ICON*/
+  /*TERCER ICON*/
+  /*CUARTO ICON*/ }
+  /* line 9, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; }
+  /* line 16, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section body {
+    background: #6b7ea9;
+    padding: 20px; }
+  /* line 21, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .content-cabecera {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 100px;
+    text-align: center;
+    margin: auto; }
+  /* line 29, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .content-logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid white;
+    margin: auto; }
+  /* line 38, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .content-logo img {
+    width: 100%;
+    height: 100%; }
+  /* line 43, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .content-cabecera h1 {
+    font-weight: 100;
+    color: white;
+    margin-top: 20px; }
+  /* line 49, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .content-cabecera p {
+    margin-top: 40px;
+    color: #A1ADCC; }
+  /* line 54, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .content-cabecera a {
+    color: #A1ADCC; }
+  /* line 58, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section main {
+    max-width: 1000px;
+    background: white;
+    padding: 40px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 8px; }
+  /* line 70, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .content1 {
+    width: 100%; }
+  /* line 74, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .img-content1 {
+    width: 100%;
+    text-align: center; }
+  /* line 79, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .img-content1 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; }
+  /* line 85, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .text-content1 {
+    width: 100%;
+    text-align: center; }
+  /* line 90, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .text-content1 h1 {
+    margin-top: 40px;
+    font-weight: 100;
+    text-align: center; }
+  /* line 96, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .text-content1 hr {
+    width: 100px;
+    height: 3px;
+    margin: auto;
+    border-style: none;
+    background: -webkit-linear-gradient(left, red, blue, #82B2EE);
+    background: -moz-linear-gradient(left, red, blue, #82B2EE);
+    background: -o-linear-gradient(left, red, blue, #82B2EE);
+    margin-top: 20px; }
+  /* line 107, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .text-content1 p {
+    margin-top: 40px;
+    color: #07073e;
+    letter-spacing: 1px; }
+  /* line 113, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .button-leer {
+    width: 200px;
+    padding: 16px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 40px;
+    cursor: pointer; }
+  /* line 126, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .content2 {
+    width: 100%;
+    text-align: center; }
+  /* line 131, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .content2 h1 {
+    font-weight: 100;
+    margin-top: 20px; }
+  /* line 136, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .content2 hr {
+    width: 100px;
+    height: 3px;
+    margin: auto;
+    border-style: none;
+    background: -webkit-linear-gradient(left, red, blue, #82B2EE);
+    background: -moz-linear-gradient(left, red, blue, #82B2EE);
+    background: -o-linear-gradient(left, red, blue, #82B2EE);
+    margin-top: 20px; }
+  /* line 147, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .content-details {
+    width: 100%; }
+  /* line 151, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .item-details {
+    width: 100%;
+    max-width: 400px;
+    margin: auto; }
+  /* line 157, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .icon-details {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #dddddd;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    margin-top: 40px; }
+  /* line 167, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .icon-details span {
+    font-size: 80px;
+    border: 1px solid #dddddd;
+    border-radius: 50%;
+    padding: 46px;
+    margin: auto; }
+  /* line 175, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .content-details h4 {
+    font-weight: 100;
+    font-size: 18px;
+    margin-top: 40px; }
+  /* line 181, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .content-details p {
+    font-size: 16px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    color: #877d7d; }
+  /* line 191, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .content3 {
+    width: 100%;
+    text-align: center; }
+  /* line 196, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .content3 h1 {
+    font-weight: 100;
+    margin-top: 20px; }
+  /* line 201, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .content3 hr {
+    width: 100px;
+    height: 3px;
+    margin: auto;
+    border-style: none;
+    background: -webkit-linear-gradient(left, red, blue, #82B2EE);
+    background: -moz-linear-gradient(left, red, blue, #82B2EE);
+    background: -o-linear-gradient(left, red, blue, #82B2EE);
+    margin-top: 20px; }
+  /* line 212, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .content3 p {
+    margin-top: 40px;
+    letter-spacing: 1px;
+    color: #877d7d; }
+  /* line 218, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .content-estadisticas {
+    width: 100%;
+    margin-top: 40px; }
+  /* line 223, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .item-estadistica {
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    padding: 40px;
+    color: white; }
+  /* line 231, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .item-estadistica span {
+    font-size: 80px;
+    color: white; }
+  /* line 236, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .item1 {
+    background: #EFA8B0;
+    border-radius: 10px 10px 0px 0px; }
+  /* line 241, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .item2 {
+    background: #ffaeff; }
+  /* line 246, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .item3 {
+    background: #50a578; }
+  /* line 251, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .item4 {
+    background: #c273ff; }
+  /* line 256, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .item5 {
+    background: #8CC9F0;
+    border-radius: 0px 0px 10px 10px; }
+  /* line 261, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .item-estadistica h4 {
+    font-weight: 100;
+    margin-top: 20px;
+    font-size: 20px; }
+  /* line 267, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .item-estadistica p {
+    color: white;
+    margin-top: 0px; }
+  /* line 272, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .parrafo-content1 {
+    text-align: justify; }
+  /* line 279, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .content4 {
+    width: 100%;
+    text-align: center; }
+  /* line 284, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .content4 h1 {
+    font-weight: 100;
+    margin-top: 20px; }
+  /* line 289, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .content4 hr {
+    width: 100px;
+    height: 3px;
+    margin: auto;
+    border-style: none;
+    background: -webkit-linear-gradient(left, red, blue, #82B2EE);
+    background: -moz-linear-gradient(left, red, blue, #82B2EE);
+    background: -o-linear-gradient(left, red, blue, #82B2EE);
+    margin-top: 20px; }
+  /* line 300, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .content4 p {
+    margin-top: 40px;
+    font-size: 20px;
+    color: 877d7d; }
+  /* line 306, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .button-content4 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center; }
+  /* line 312, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .button-content4 button {
+    width: 200px;
+    height: 60px;
+    background: #8CC9F0;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    transition: opacity 300ms; }
+  /* line 325, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .button-content4 button:hover {
+    opacity: 0.8; }
+  /* line 329, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+  section .leer-content4 {
+    width: 200px;
+    margin: auto; }
+  @media screen and (min-width: 800px) {
+    /* line 337, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+    section .content1 {
+      display: flex;
+      flex-direction: row-reverse; }
+    /* line 342, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+    section .img-content1 {
+      width: 70%; }
+    /* line 346, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+    section .img-content1 img {
+      float: right;
+      width: 300px;
+      height: 300px; }
+    /* line 352, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+    section .button1 {
+      float: left; }
+    /* line 356, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+    section .content-details {
+      display: flex; }
+    /* line 360, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+    section .content-estadisticas {
+      display: flex; }
+    /* line 364, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+    section .content-estadisticas span {
+      font-size: 40px; }
+    /* line 368, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+    section .item1 {
+      background: #EFA8B0;
+      border-radius: 10px 0px 0px 10px; }
+    /* line 372, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+    section .item5 {
+      background: #8CC9F0;
+      border-radius: 0px 10px 10px 0px; }
+    /* line 377, ../Tercera Preentrega Duarte Tiziana/css/scss/estilos.scss */
+    section .content4 {
+      width: 100%;
+      max-width: 600px;
+      margin: auto; } }
+
+/*# sourceMappingURL=estilos.css.map */
